@@ -418,9 +418,33 @@ color: #4d5ae5;
 }
 
 /** ------- Customers ------- */
+/* ------------------------Galery ----------------------  */
 
-.clients-section {
-  padding-top: 120px;
+.gallery-section {
+  
+margin-bottom: 44px;
+
+}
+.client-text{
+  position: absolute;
+  width: 197.47px;
+  height: 40px;
+  left: 115px;
+  top: 3646px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+  
+}
+
+
+{  padding-top: 120px;
   padding-bottom: 120px;
 }
 
