@@ -59,6 +59,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 /*? Content */
@@ -71,7 +72,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 100%;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -155,6 +156,14 @@ body {
 }
 
 /** --------- Header --------- */
+
+.header-section{
+  margin-bottom: 44px;
+}
+
+
+
+
 
 .header-container {
   display: flex;
@@ -290,8 +299,11 @@ body {
 /** --------- Features --------- */
 
 .features-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+ padding-top: 84px;
+ padding-bottom:84px ;
+ 
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 
 .features-list {
@@ -420,6 +432,9 @@ color: #4d5ae5;
 /** ------- Customers ------- */
 /* ------------------------Galery ----------------------  */
 
+
+
+
 .gallery-section {
   
 margin-bottom: 44px;
@@ -449,7 +464,8 @@ margin-bottom: 44px;
 }
 
 .clients-title {
-  margin-bottom: 72px;
+  margin-bottom:71px ;
+  /* margin-bottom: 72px; */
 }
 
 .clients-list {
@@ -918,4 +934,23 @@ margin-bottom: 44px;
 .terms-lin{
   color: #2230cd;
   padding-left: 3px;
+}
+
+
+
+@media screen and ( min-width:480px)
+ {
+  .container{
+    width: 420px; ;
+  }
+  
+}
+
+
+@media screen and ( min-width:768px)
+ {
+  .containerr{
+    width: 768px; ;
+  }
+  
 }
