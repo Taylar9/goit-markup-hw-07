@@ -245,15 +245,23 @@ body {
   padding-bottom: 188px;
   text-align: center;
   text-decoration: none;
-  background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/bar-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url("photo@2x.png");
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-mobi.jpg);
+  }
 }
 
 .hero-title {
@@ -323,10 +331,12 @@ body {
 
 /** --------- Services --------- */
 
+.strateg-section {
+  display: none;
+}
 .services-section {
   padding-bottom: 120px;
 }
-
 .services-title {
   margin-bottom: 72px;
   text-transform: capitalize;

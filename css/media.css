@@ -1,12 +1,20 @@
+/* <!-- Section 2 - Features --> */
 @media screen and (min-width: 428px) {
   .container {
     width: 320px;
     padding-left: 16px;
-    padding-right: 16px;
+    /* padding-right: 16px; */
     margin: 0 auto;
   }
-  .hero-section{
-    
+  .hero-section {
+  }
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-mobi.jpg);
   }
   .title {
     font-size: 30px;
@@ -14,9 +22,12 @@
     letter-spacing: 0.02em;
     text-align: center;
   }
-   .hero-button {
+  .hero-button {
     margin-top: 72px;
- 
+  }
+  .strateg-section {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -27,7 +38,6 @@
     margin: 0 auto;
   }
   .hero-title {
- 
     width: 496px;
     line-height: 60px;
   }
@@ -37,7 +47,14 @@
     letter-spacing: 0.02em;
     text-align: center;
   }
-
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-tablet.jpg);
+  }
   .hero-button {
     margin-top: 69px;
     height: 56px;
@@ -67,7 +84,14 @@
     border-radius: 4px;
     left: 530px;
   }
-
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bar-office.jpg);
+  }
   .hero-title {
     margin-bottom: 48px;
     width: 496px;
@@ -96,12 +120,12 @@
     align-items: center;
     background-color: var(--card-background-color-cloud);
   }
+  .services-section {
+    padding-bottom: 120px;
+  }
+
   .features-list li {
     flex-basis: calc((100%-90px) / 4);
   }
 }
-
-
-
-
-
+/* Section 4 Our Team */
