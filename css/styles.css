@@ -73,10 +73,10 @@ body {
 
 .container {
   width: 100%;
-  padding: 0 15px;
+  padding:  15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid green;  */
+ 
 }
 .curent {
   position: relative;
@@ -298,22 +298,17 @@ body {
 
 /** --------- Features --------- */
 
-.features-section {
- padding-top: 84px;
- padding-bottom:84px ;
- 
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-}
+
 
 .features-list {
   display: flex;
-  
+  flex-wrap: wrap;
+  gap:30px; 
 }
 .features-svg{
 color: #4d5ae5;
-
 }
+
 .features-item {
   display: inline-block;
   max-width: 264px;
@@ -324,13 +319,7 @@ color: #4d5ae5;
 }
 
 .features-list .block {
-  display: flex;
-  height: 112px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--card-background-color-cloud);
+  display: none;
 }
 
 .features-subtitle {
@@ -435,10 +424,8 @@ color: #4d5ae5;
 
 
 
-.gallery-section {
-  
+.features-text{
 margin-bottom: 44px;
-
 }
 .client-text{
   position: absolute;
@@ -458,11 +445,10 @@ margin-bottom: 44px;
   
 }
 
-
-{  padding-top: 120px;
+.clients-section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .clients-title {
   margin-bottom:71px ;
   /* margin-bottom: 72px; */
@@ -934,23 +920,4 @@ margin-bottom: 44px;
 .terms-lin{
   color: #2230cd;
   padding-left: 3px;
-}
-
-
-
-@media screen and ( min-width:480px)
- {
-  .container{
-    width: 420px; ;
-  }
-  
-}
-
-
-@media screen and ( min-width:768px)
- {
-  .containerr{
-    width: 768px; ;
-  }
-  
 }

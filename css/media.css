@@ -1,1 +1,45 @@
-features-container
+@media screen and ( min-width: 428px)
+ {
+  .container {
+    width:428px; 
+  }
+}
+
+  @media screen and ( min-width: 768px) {
+ .container {
+    width: 768px; 
+  } 
+  .features-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .features-text{
+    margin-bottom:44px;
+  }
+  .features-list li {
+
+    flex-basis: calc((100%-30px) / 2);
+    } 
+  }
+  @media screen and ( min-width:1158px){
+  .container{
+     width:1158px; 
+   }
+   .features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .features-list .block {
+    display: flex;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-background-color-cloud);
+  }
+   .features-list li {
+
+    flex-basis: calc((100%-90px) / 4);
+    } 
+  }  
