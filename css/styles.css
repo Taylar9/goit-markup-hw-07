@@ -332,10 +332,10 @@ body {
 /** --------- Services --------- */
 
 .services-section {
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
   display: none;
 }
-.services-title {
+/* .services-title {
   margin-bottom: 72px;
   text-transform: capitalize;
 }
@@ -346,7 +346,7 @@ body {
 
 .services-item:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 /** --------- Team --------- */
 
