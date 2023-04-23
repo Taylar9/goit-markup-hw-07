@@ -264,13 +264,15 @@ body {
 }
 
 .hero-title {
-  margin-bottom: 48px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
   color: var(--background-color-white);
 }
 
@@ -284,6 +286,9 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+   /*--------------кінец-------------------- */
+
 
 /* .button:is(:hover, :focus) {
     color: var(--background-color-white);

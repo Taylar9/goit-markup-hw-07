@@ -1,7 +1,14 @@
+
+
+
+
 @media screen and ( min-width: 428px)
  {
   .container {
     width:428px; 
+  }
+  .hero-title{
+  font-size: 56px
   }
 }
 
@@ -24,6 +31,16 @@
   @media screen and ( min-width:1158px){
   .container{
      width:1158px; 
+   }
+   
+   .hero-title{
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
+    font-size: 36px;
+    line-height: 0.02em;
+    text-align: center;
    }
    .features-section {
     padding-top: 120px;
