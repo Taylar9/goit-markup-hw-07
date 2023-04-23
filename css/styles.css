@@ -331,11 +331,9 @@ body {
 
 /** --------- Services --------- */
 
-.strateg-section {
-  display: none;
-}
 .services-section {
   padding-bottom: 120px;
+  display: none;
 }
 .services-title {
   margin-bottom: 72px;

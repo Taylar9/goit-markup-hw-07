@@ -6,8 +6,7 @@
     /* padding-right: 16px; */
     margin: 0 auto;
   }
-  .hero-section {
-  }
+
   .hero-section {
     background-image: linear-gradient(
         to right,
@@ -120,6 +119,8 @@
     align-items: center;
     background-color: var(--card-background-color-cloud);
   }
+  /* Section 4 Our Team */
+
   .services-section {
     padding-bottom: 120px;
   }
@@ -127,5 +128,16 @@
   .features-list li {
     flex-basis: calc((100%-90px) / 4);
   }
+  .services-title {
+    margin-bottom: 72px;
+    text-transform: capitalize;
+  }
+
+  .services-list {
+    display: flex;
+  }
+
+  .services-item:not(:last-child) {
+    margin-right: 24px;
+  }
 }
-/* Section 4 Our Team */
