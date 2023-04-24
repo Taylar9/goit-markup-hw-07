@@ -60,6 +60,37 @@ img {
   width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*? Content */
 
 body {
@@ -152,6 +183,29 @@ body {
   overflow: hidden;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** --------- Header --------- */
 
 .header-section {
@@ -234,6 +288,28 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** --------- Hero --------- */
 
 .hero-section {
@@ -302,6 +378,29 @@ body {
   background-color: var(--hovered-color-ocean);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** --------- Features --------- */
 
 .features-list {
@@ -318,8 +417,6 @@ body {
   max-width: 264px;
 }
 
-.features-item:not(:last-child) {
-}
 
 .features-list .block {
   display: none;
@@ -329,13 +426,28 @@ body {
   margin-bottom: 8px;
 }
 
-/** --------- Services --------- */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** --------- Services --------- */
 .services-section {
-  /* padding-bottom: 120px; */
+  padding-bottom: 120px;
   display: none;
 }
-/* .services-title {
+
+.services-title {
   margin-bottom: 72px;
   text-transform: capitalize;
 }
@@ -346,13 +458,41 @@ body {
 
 .services-item:not(:last-child) {
   margin-right: 24px;
-} */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** --------- Team --------- */
 
 .team-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
   background-color: var(--card-background-color-cloud);
 }
 
@@ -363,7 +503,12 @@ body {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 24px; 
+
 }
+
+
 
 .team-item {
   background-color: var(--background-color-white);
@@ -396,6 +541,7 @@ body {
 
 .desc .socials-list {
   display: flex;
+  flex: wrap;
   width: 232px;
   gap: 24px;
   justify-content: center;
@@ -420,6 +566,33 @@ body {
   fill: var(--card-background-color-cloud);
   background-color: var(--hovered-color-ocean);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** ------- Customers ------- */
 /* ------------------------Galery ----------------------  */
@@ -479,6 +652,46 @@ body {
   border: 1px solid var(--hovered-color-ocean);
   fill: var(--hovered-color-ocean);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** --------- Footer --------- */
 
@@ -596,6 +809,30 @@ body {
   fill: var(--card-background-color-cloud);
   background-color: var(--success-color-green);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*? --------- портфолио-микс--------- */
 

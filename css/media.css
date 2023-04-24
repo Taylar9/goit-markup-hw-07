@@ -27,6 +27,8 @@
   .strateg-section {
     display: none;
   }
+  
+
 }
 
 @media screen and (min-width: 768px) {
@@ -70,6 +72,18 @@
   .features-list li {
     flex-basis: calc((100%-30px) / 2);
   }
+
+  
+  /* ----------------Team------------------------- */
+  .team > .container{
+    width: 480px;
+  }
+  .features-list{
+  padding-top: 100px;
+  padding-bottom: 100px;
+ 
+}
+ 
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -119,25 +133,26 @@
     align-items: center;
     background-color: var(--card-background-color-cloud);
   }
-  /* Section 4 Our Team */
-
   .services-section {
-    padding-bottom: 120px;
-  }
+    display: block;}
 
-  .features-list li {
+  /** --------- Team --------- */
+  .team > .container{
+    width: 1158px;
+  }
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+  }
+ 
+ 
+.team-list li {
     flex-basis: calc((100%-90px) / 4);
   }
-  .services-title {
-    margin-bottom: 72px;
-    text-transform: capitalize;
+  .team-list li {
+    width: calc((100%-60px) / 3);
   }
-
-  .services-list {
-    display: flex;
-  }
-
-  .services-item:not(:last-child) {
-    margin-right: 24px;
-  }
+  
 }
+
