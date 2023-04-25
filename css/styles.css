@@ -69,12 +69,12 @@ body {
   color: var(--brand-text-color-slate);
 }
 
-.container {
+/* .container {
   width: 100%;
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 .curent {
   position: relative;
 }
@@ -330,6 +330,7 @@ body {
 .services-section {
   padding-bottom: 120px;
   display: none;
+  
 }
 
 .services-title {
@@ -460,6 +461,7 @@ body {
 }
 .clients-list {
   display: flex;
+ flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
 }
