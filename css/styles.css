@@ -431,39 +431,19 @@ body {
 
 /** ------- Customers ------- */
 /* ------------------------Galery ----------------------  */
-
-.features-text {
-  margin-bottom: 44px;
-}
-.client-text {
-
-  height: 40px;
-  left: 115px;
-  top: 3646px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 .clients-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
-.clients-title {
-  margin-bottom: 72px;
-}
 .clients-list {
   display: flex;
- flex-wrap: wrap;
-  gap: 24px;
   justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.soc-item {
+  width: 168px;
+  height: 88px;
 }
 
 .clients-link {
@@ -485,14 +465,42 @@ body {
 .clients-link:focus {
   border: 1px solid var(--hovered-color-ocean);
   fill: var(--hovered-color-ocean);
+} 
+
+ .clients-title {
+  margin-bottom: 72px;
+}
+ .features-text {
+  margin-bottom: 44px; 
+}
+.client-text {
+
+  height: 40px;
+  left: 115px;
+  top: 3646px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
+/* .clients-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} */
 
 
-
-
-
-
+/* .clients-list {
+  display: flex;
+ flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+} */
 
 
 
