@@ -152,6 +152,12 @@ body {
   overflow: hidden;
 }
 
+
+
+
+
+
+
 /** --------- Header --------- */
 
 .header-section {
@@ -179,60 +185,81 @@ body {
   color: var(--title-color-navy-blue);
 }
 
-.header-list {
-  display: flex;
-  gap: 40px;
-}
+
 
 .header-list .link:hover,
 .header-list .link:focus {
   color: var(--hovered-color-ocean);
 }
+.header-list {
+  display: none;
 
-.header-item {
-  display: inline-block;
 }
-
-.header-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  color: var(--title-color-navy-blue);
-}
-
-.contacts-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  gap: 40px;
-  align-items: center;
-  display: flex;
-}
-
-.contacts-item {
-  display: inline-block;
-}
-
 .contacts-link {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  color: var(--brand-text-color-slate);
+  display: none;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--hovered-color-ocean);
-}
 
 .header-box {
   border-bottom: 1px solid var(--border-color-cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+
+
+.menu-open-btn {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color:#ffff;
+} 
+.mob-menu {
+}
+.menu-close-btn {
+}
+.mob-list {
+}
+.list {
+}
+.mob-item {
+}
+.mob-link {
+}
+.link {
+}
+.curent {
+}
+.mobs-link {
+}
+.mobik {
+}
+.mob-soc-item {
+}
+.mob-soc-list {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** --------- Hero --------- */
 
@@ -302,6 +329,26 @@ body {
   background-color: var(--hovered-color-ocean);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** --------- Features --------- */
 
 .features-list {
@@ -323,8 +370,23 @@ body {
 }
 
 .features-subtitle {
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** --------- Services --------- */
 .services-section {
@@ -345,6 +407,21 @@ body {
 .services-item:not(:last-child) {
   margin-right: 24px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** --------- Team --------- */
 
