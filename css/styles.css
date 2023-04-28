@@ -607,6 +607,7 @@ address {
 
 .form-input-accept:focus+.accept-craft-checkbox {
   outline: 2px solid rgb(67, 68, 85);
+  color: #4D5AE5;
 }
 
 .privacy-policy {
