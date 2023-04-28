@@ -604,6 +604,45 @@ address {
   border-color: transparent;
   fill-opacity: 1;
 }
+.imput-check:checked + .check-text::before {
+  background-color: #2230cd;
+  border: none;
+  /* background-image: url(../images/chek.svg); */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.check-text {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.check-text::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.modal-field {
+  margin-bottom: 10px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--subtle-color-light-slate);
+  letter-spacing: 0.02em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .form-input-accept:focus+.accept-craft-checkbox {
   outline: 2px solid rgb(67, 68, 85);
@@ -657,7 +696,7 @@ address {
   .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-          url(../images/hero-mobile/hero-bg.jpg);
+          url(../images/mobbile/office\ 1x.jpg );
       max-width: 428px;
       padding: 112px 0;
   }
@@ -676,7 +715,7 @@ screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-          url(../images/hero-mobile/hero-bg@2x.jpg);
+          url(../images/mobbile/office\ 1x.jpg);
   }
 }
 
@@ -685,7 +724,7 @@ screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-          url(../images/hero-tablet/dark-bg.jpg);
+          url(../images/tablet/Dark-tablet.jpg);
       max-width: 768px;
       padding: 112px 0;
   }
@@ -704,7 +743,7 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-          url(../images/hero-tablet/dark-bg@2x.jpg);
+          url(../images/tablet/Dark-tablet.jpg);
   }
 }
 
@@ -713,7 +752,7 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-          url(../images/hero-desktop/people-office.jpg);
+          url(../images/desktop/bar-office.jpg);
       max-width: 1440px;
       padding: 188px 0;
   }
@@ -729,7 +768,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-          url(../images/hero-desktop/people-office@2x.jpg);
+          url(../images/desktop/people-office\ 1.jpg);
   }
 }
 
