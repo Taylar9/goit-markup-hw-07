@@ -18,7 +18,19 @@
   --overlay-color-navy-blue-modal: #2e2f42;
   --hero-background-color-grey: #2e2f42;
   --modal-background-color-dairy: #fcfcfc;
+  --color-primary-brand: #4D5AE5;
+  --color-pressed-state: #404BBF;
+  --color-valid-success: #31D0AA;
+  --color-subtle-text: #8E8F99;
+  --color-accent-text: #E7E9FC;
+  --background-alerts: #F4F4FD;
+  --color-body-text: #434455;
+  --background-color-text: #2E2F42;
+  --color-hover-heading: #ffffff;
+  --time-transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 /*! -------reset------- */
 
@@ -43,7 +55,7 @@ h6 p {
 ul {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 
 .no-scroll {
@@ -58,6 +70,23 @@ img {
   max-width: 100%;
   height: auto;
   width: 100%;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1199px) {
+  .section {
+      padding-top: 96px;
+      padding-bottom: 96px;
+  }
 }
 
 /*? Content */
@@ -208,16 +237,20 @@ body {
 
 
 
-.menu-open-btn {
-  position: fixed;
+/* .menu-open-btn {
+ position: fixed;
   top: 0;
   z-index: 2;
   width: 100vw;
   height: 100vh;
-  background-color:#ffff;
-} 
+  background-color:hsl(0, 14%, 5%);
+  padding: 48px 31px 48px 40px;
+}  
 .mob-menu {
-}
+ display: block;
+  margin-left: auto;
+  margin-bottom: 30px;
+} */
 .menu-close-btn {
 }
 .mob-list {
@@ -227,6 +260,12 @@ body {
 .mob-item {
 }
 .mob-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(25/36);
+   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #404BBF;
 }
 .link {
 }
@@ -307,7 +346,7 @@ body {
   position: absolute;
   height: 56px;
   left: 129px;
-  top: 334px;
+  
   color: var(--background-color-white);
   background-color: var(--primary-brand-color-iris);
   border-color: transparent;
@@ -351,19 +390,19 @@ body {
 
 /** --------- Features --------- */
 
-.features-list {
+ .features-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 .features-svg {
   color: #4d5ae5;
-}
+} 
 
-.features-item {
+ .features-item {
   display: inline-block;
-  max-width: 264px;
-}
+  /* max-width: 264px; */
+} 
 
 .features-list .block {
   display: none;
@@ -372,7 +411,7 @@ body {
 .features-subtitle {
   margin-bottom: 20px;
 }
-
+ 
 
 
 
@@ -426,7 +465,8 @@ body {
 /** --------- Team --------- */
 
 .team-section {
-  background-color: var(--card-background-color-cloud);
+ 
+    background-color: var(--card-background-color-cloud);
 }
 
 .team-title {
@@ -508,7 +548,99 @@ body {
 
 /** ------- Customers ------- */
 /* ------------------------Galery ----------------------  */
-.clients-section {
+
+.clients-title {
+  color: var(--background-color-text);
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.clients-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client-item{
+  height: 88px;
+}
+
+.clients-link {
+  border: 1px solid var(--subtle-color-light-slate);
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--subtle-color-light-slate);
+
+
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--hovered-color-ocean);
+  fill: var(--hovered-color-ocean);
+} 
+
+
+.client-logo{
+  fill: var(--color-subtle-text);
+  height: 56px;
+
+  transition: fill var(--time-transition-duration) var(--transition-timing-function);
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover>.client-logo,
+.clients-link:focus>.client-logo {
+  fill: var(--color-pressed-state)
+}
+
+
+/* ---------mobile--------- */
+@media screen and (max-width: 767px) {
+  .clients-list {
+      gap: 72px 16px;
+  }
+
+  .client-item{
+      width: 190px;
+  }
+
+  .clients-link {
+      padding: 16px 40px;
+  }
+
+}
+
+/* ----------tablet-------- */
+@media screen and (min-width: 768px) {
+  .clients-list {
+      gap: 72px 24px;
+  }
+
+  .client-item{
+      width: 168px;
+  }
+
+  .clients-link {
+      padding: 16px 32px;
+  }
+}
+
+
+/* ------------------------------------ */
+/* .clients-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -579,7 +711,7 @@ body {
   justify-content: center;
 } */
 
-
+ */
 
 /** --------- Footer --------- */
 
