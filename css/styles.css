@@ -61,6 +61,8 @@ img {
   .section {
       padding-top: 96px;
       padding-bottom: 96px;
+      
+
   }
 }
 
@@ -607,7 +609,7 @@ address {
 .imput-check:checked + .check-text::before {
   background-color: #2230cd;
   border: none;
-  /* background-image: url(../images/chek.svg); */
+  background-image: url(../images/chek.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -615,6 +617,10 @@ address {
   font-size: 12px;
   display: flex;
   align-items: center;
+ 
+}
+.terms-lin{
+  color: #4D5AE5;
 }
 .check-text::before {
   content: "";
@@ -1320,6 +1326,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .footer {
       padding-top: 96px;
       padding-bottom: 96px;
+   
   }
 
   .footer .team-network {
@@ -1336,6 +1343,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .footer-wrapp {
       flex-direction: column;
       align-items: center;
+    
   }
 
 
@@ -1365,6 +1373,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
   .footer-form-title {
       text-align: center;
+
   }
 
   .footer-email-input {
@@ -1386,6 +1395,10 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
   .footer-box {
       margin-right: 24px;
+       margin-left: 100px; 
+  }
+  .footer-form-title {
+    margin-left: 100px;
   }
 
   .footer-text {
@@ -1399,6 +1412,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .footer-email-input {
       margin-right: 24px;
       width: 264px;
+       margin-left: 100px; 
   }
 }
 
