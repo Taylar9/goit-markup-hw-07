@@ -1241,14 +1241,13 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 }
 
 
-/**-------------------------------- footer----------------------------- */
+/**------------------------------------ footer-------------------------------------------  */
 .footer {
   background-color: var(--background-color-text);
 }
 
 .footer-wrapp {
   display: flex;
-pa: 180px;
 }
 
 .footer-text {
@@ -1292,7 +1291,6 @@ pa: 180px;
   height: 40px;
 
 
-
   transition: border var(--time-transition-duration) var(--transition-timing-function);
 }
 
@@ -1328,7 +1326,6 @@ pa: 180px;
   .footer {
       padding-top: 96px;
       padding-bottom: 96px;
-   
   }
 
   .footer .team-network {
@@ -1345,7 +1342,6 @@ pa: 180px;
   .footer-wrapp {
       flex-direction: column;
       align-items: center;
-    
   }
 
 
@@ -1375,7 +1371,6 @@ pa: 180px;
 
   .footer-form-title {
       text-align: center;
-
   }
 
   .footer-email-input {
@@ -1397,10 +1392,6 @@ pa: 180px;
 
   .footer-box {
       margin-right: 24px;
-       margin-left: 100px; 
-  }
-  .footer-form-title {
-    margin-left: 100px;
   }
 
   .footer-text {
@@ -1414,30 +1405,25 @@ pa: 180px;
   .footer-email-input {
       margin-right: 24px;
       width: 264px;
-       margin-left: 100px; 
   }
 }
 
-/* --------------desctop----------- */
- @media screen and (min-width: 1200px) {
+/* ---------desctop-------- */
+@media screen and (min-width: 1200px) {
   .footer {
       padding-top: 100px;
       padding-bottom: 100px;
-     
-}
- 
-   .footer-wrapp {
+  }
+
+  .footer-wrapp {
       flex-wrap: nowrap;
-      margin-right: 300px;
-      margin-left: -10px;
-  } 
+  }
 
-   .footer-box {
-      margin-right: 70px;  
+  .footer-box {
+      margin-right: 120px;
+  }
 
-  } 
-
-   .footer-social-box {
-      margin-right: -40px;
-  } 
- }
+  .footer-social-box {
+      margin-right: 80px;
+  }
+}
